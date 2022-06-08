@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Hamburger",
+    "price": 7.20,
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Soup",
+    "price": 5.20,
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pizza",
+    "price": 17.00,
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Salad",
+    "price": 12.20,
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cakes",
+    "price": 7.20,
+    "image": "/assets/img/top-categories-img1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pasta",
+    "price": 15.80,
+    "image": "/assets/img/top-categories-img1.jpg"
+  }
+]
