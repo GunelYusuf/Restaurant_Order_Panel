@@ -1,0 +1,39 @@
+.sidebar{
+  height: 100vh;
+  background-color:rgb(248,248,255);
+
+  #{&}Wrapper{
+
+  }
+  #{&}Menu{
+    margin-bottom: 10px;
+    .sidebarTitle{
+      font-size: 21px;
+      color: blueviolet;
+    }
+    .sidebarList{
+      list-style: none;
+      padding: 5px;
+
+    &Item{
+        padding: 10px;
+        margin-top:10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        background-color: azure;
+       a{
+        color: dimgray;
+         font-size: 15px;
+        }
+      &:hover{
+        background-color: rgb(228,228,250);
+      }
+      .sidebarIcon{
+        margin-right: 9px;
+      }
+      }
+    }
+  }
+}

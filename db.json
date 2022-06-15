@@ -1,0 +1,194 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Hamburger",
+      "price": 7.2,
+      "image": "/images/meals/Hamburger.jpeg",
+      "count": 0
+    },
+    {
+      "id": 2,
+      "name": "Soup",
+      "price": 5.2,
+      "image": "/images/meals/soup.jpeg",
+      "count": 0
+    },
+    {
+      "id": 3,
+      "name": "Pizza",
+      "price": 17,
+      "image": "/images/meals/pizza.jpeg",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "name": "Salad",
+      "price": 12.2,
+      "image": "/images/meals/salads.jpeg",
+      "count": 0
+    },
+    {
+      "id": 5,
+      "name": "Cakes",
+      "price": 7.2,
+      "image": "/images/meals/cake].jpeg",
+      "count": 0
+    },
+    {
+      "id": 6,
+      "name": "Pasta",
+      "price": 15.8,
+      "image": "/images/meals/pasta2.jpeg",
+      "count": 0
+    },
+    {
+      "id": 7,
+      "name": "Toast",
+      "price": 15.8,
+      "image": "/images/meals/bread.jpeg",
+      "count": 0
+    },
+    {
+      "id": 8,
+      "name": "Oat with milk",
+      "price": 15.8,
+      "image": "/images/meals/milk.jpeg",
+      "count": 0
+    },
+    {
+      "id": 9,
+      "name": "Steak",
+      "price": 15.8,
+      "image": "/images/meals/beafteck.jpeg",
+      "count": 0
+    },
+    {
+      "id": 10,
+      "name": "Cheese Pasta",
+      "price": 15.8,
+      "image": "/images/meals/pasta.jpeg",
+      "count": 0
+    },
+    {
+      "id": 11,
+      "name": "Milk",
+      "price": 15.8,
+      "image": "/images/meals/img.png",
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "Chocolate",
+      "price": 15.8,
+      "image": "/images/meals/cakes.jpeg",
+      "count": 0
+    },
+    {
+      "id": 13,
+      "name": "Cola",
+      "price": 15.8,
+      "image": "/images/meals/colacola.jpeg",
+      "count": 0
+    },
+    {
+      "id": 14,
+      "name": "Fanta",
+      "price": 15.8,
+      "image": "/images/meals/fanta.jpeg",
+      "count": 0
+    },
+    {
+      "id": 15,
+      "name": "Pepsi",
+      "price": 15.8,
+      "image": "/images/meals/cola.jpeg",
+      "count": 0
+    }
+  ],
+  "orders": [
+    {
+      "status": {
+        "completed": false
+      },
+      "orderItems": [
+        {
+          "id": 1,
+          "name": "Pizza",
+          "orderHour": "21:45",
+          "quantity": 4,
+          "wait": 0,
+          "status": "received",
+          "price": 17
+        },
+        {
+          "id": 2,
+          "name": "Salad",
+          "orderHour": "21:45",
+          "quantity": 3,
+          "wait": "refusal",
+          "status": "refusal",
+          "price": 12.2
+        },
+        {
+          "id": 3,
+          "name": "Cakes",
+          "orderHour": "21:45",
+          "quantity": 3,
+          "wait": 0,
+          "status": "received",
+          "price": 7.2
+        }
+      ],
+      "orderDate": null,
+      "table": "m1",
+      "waiter": "Kamran",
+      "totalAmount": 114,
+      "id": 1
+    }
+  ],
+  "tables": [
+    {
+      "id": 1,
+      "table": "m1"
+    },
+    {
+      "id": 2,
+      "table": "m2"
+    },
+    {
+      "id": 3,
+      "table": "m3"
+    },
+    {
+      "id": 4,
+      "table": "m4"
+    },
+    {
+      "id": 5,
+      "table": "m5"
+    }
+  ],
+  "waiters": [
+    {
+      "id": 1,
+      "name": "Nijat"
+    },
+    {
+      "id": 2,
+      "name": "Rasul"
+    },
+    {
+      "id": 3,
+      "name": "Habib"
+    },
+    {
+      "id": 4,
+      "name": "Tabriz"
+    },
+    {
+      "id": 5,
+      "name": "Kamran"
+    }
+  ]
+}
